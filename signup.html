@@ -1,19 +1,19 @@
 <html>
 <head>
-  <title> Mi tienda </title>
+  <title> Formulario de registro </title>
   <link rel="icon" type="image/ico" href= "icons\logo.jpg" />
 </head>
-<body background ="D:\myrepo\images\hola.png">
+<body background = "D:\myrepo\images\hola.png" >
   <br> <br>
-  <H1 align="center"><font face="Times New Roman" size="5" color="white"<b><b>Formulario de registro</font></H1>
-
+  <H1 align="center"><font face="Book Antiqua" size="5" color="white"<b><b>Formulario de registro</font></H1>
+<form name="frm1" action="menu.html" method="POST">
   <table border="0" align="center">
 
 
     <tr>
     <tr>
-    <td> <font face="Times New Roman" size="3" color="white"<b><b>Nombres: </b></b></td></font>
-    <td> <input type="text" name="user" placeholder="Ingrese Nombres" required><br></td>
+    <td> <font face="Book Antiqua" size="3" color="white"<b><b>Nombres: <font color="codigocolor">*</b></b></td></font>
+    <td> <input type="text" name="user"  placeholder="Ingrese Nombres" required onkeyup="this.value=this.value.toUpperCase()"><br></td>
     <br> <br>
     </tr>
     </tr>
@@ -23,8 +23,8 @@
 
     <tr>
     <tr>
-    <td> <font face="Times New Roman" size="3" color="white"<b><b>Apellidos: </b></b></td></font>
-    <td> <input type="text" name="user" placeholder="Ingrese Apellidos" required><br></td>
+    <td> <font face="Book Antiqua" size="3" color="white"<b><b>Apellidos: <font color="codigocolor">*</b></b></td></font>
+    <td> <input type="text" name="user"  placeholder="Ingrese Apellidos" required onkeyup="this.value=this.value.toUpperCase()"><br></td>
 
     </tr>
     </tr>
@@ -34,7 +34,7 @@
 
 <tr>
     <tr>
-   <td> <font face="Times New Roman" size="3" color="white"<b><b>Tipo de identificacion: </b></b></td></font>
+   <td> <font face="Book Antiqua" size="3" color="white"<b><b>Tipo de identificacion: <font color="codigocolor">*</b></b></td></font>
    <td> <select name="OS">
 
    <option >Tipo de identificacion</option>
@@ -50,7 +50,7 @@
 
 <tr>
     <tr>
-   <td> <font face="Times New Roman" size="3" color="white"<b><b>Genero: </b></b></td></font>
+   <td> <font face="Book Antiqua" size="3" color="white"<b><b>Genero: <font color="codigocolor">*</b></b></td></font>
    <td> <select name="OS">
    <option >Genero</option>
    <option value="0">Masculino</option>
@@ -63,40 +63,40 @@
 
   <tr>
   <tr>
-  <td> <font face="Times New Roman" size="3" color="white"<b><b>Nro Identificacion: </b></b></td></font>
-  <td> <input type="text" name="user" placeholder="Nro Identificacion" required><br></td>
+  <td> <font face="Book Antiqua" size="3" color="white"<b><b>Nro Identificacion: <font color="codigocolor">*</b></b></td></font>
+  <td> <input type="number" name="user" placeholder="Nro Identificacion" required><br></td>
   </tr>
   </tr>
 
   <tr>
   <tr>
-  <td> <font face="Times New Roman" size="3" color="white"<b><b>Telefono: </b></b></td></font>
-  <td> <input type="text" name="user" placeholder="Ingrese telefono" required><br></td>
+  <td> <font face="Book Antiqua" size="3" color="white"<b><b>Telefono: </b></b></td></font>
+  <td> <input type="number" name="user" placeholder="Ingrese telefono"><br></td>
   </tr>
   </tr>
 
   <tr>
   <tr>
-  <td> <font face="Times New Roman" size="3" color="white"<b><b>Celular: </b></b></td></font>
-  <td> <input type="text" name="user" placeholder="Ingrese Celular" required><br></td>
+  <td> <font face="Book Antiqua" size="3" color="white"<b><b>Celular: <font color="codigocolor">*</b></b></td></font>
+  <td> <input type="number" name="user" placeholder="Ingrese Celular" required><br></td>
   </tr>
   </tr>
 
   <tr>
       <tr>
-     <td> <font face="Times New Roman" size="3" color="white"<b><b>Departamento nac: </b></b></td></font>
+     <td> <font face="Book Antiqua" size="3" color="white"<b><b>Departamento nac: <font color="codigocolor">*</b></b></td></font>
      <td> <select name="OS">
-     <option >Departamento</option>
-     <option value="0">Masculino</option>
-     <option value="1">Femenino</option>
-     <option value="2">Otro</option>
-     <option value="3">R.C</option>
-     <option value="4">R.C</option>
-     <option value="5">P.S</option>
-     <option value="6">R.C</option>
-     <option value="7">R.C</option>
-     <option value="8">P.S</option>
-     <option value="9">P.S</option>
+       <option value="0">Departamento</option>
+       <option value="1">AMAZONAS</option>
+       <option value="2">ANTIOQUIA</option>
+       <option value="3">BOYACA</option>
+       <option value="4">CALDAS</option>
+       <option value="5">CUNDINAMARCA</option>
+       <option value="6">META</option>
+       <option value="7">NARIÑO</option>
+       <option value="8">SANTANDER</option>
+       <option value="9">VALLE DEL CAUCA</option>
+       <option value="10">VAUPES</option>
 
      </select>
     </tr>
@@ -104,19 +104,19 @@
 
   <tr>
       <tr>
-     <td> <font face="Times New Roman" size="3" color="white"<b><b>Ciudad nac: </b></b></td></font>
+     <td> <font face="Book Antiqua" size="3" color="white"<b><b>Ciudad nac: <font color="codigocolor">*</b></b></td></font>
      <td> <select name="OS">
      <option >Ciudad</option>
-     <option value="0">Masculino</option>
-     <option value="1">Femenino</option>
-     <option value="2">Otro</option>
-     <option value="3">R.C</option>
-     <option value="4">R.C</option>
-     <option value="5">P.S</option>
-     <option value="6">R.C</option>
-     <option value="7">R.C</option>
-     <option value="8">P.S</option>
-     <option value="9">P.S</option>
+     <option value="1">PASTO</option>
+     <option value="2">TUQUERRES</option>
+     <option value="3">LA UNION</option>
+     <option value="4">TUMACO</option>
+     <option value="5">IPIALES</option>
+     <option value="6">POLICARPA</option>
+     <option value="7">YAQUANQUER</option>
+     <option value="8">LA FLORIDA</option>
+     <option value="9">NARIÑO</option>
+     <option value="10">CONSACA</option>
 
      </select>
     </tr>
@@ -124,28 +124,28 @@
 
   <tr>
   <tr>
-  <td> <font face="Times New Roman" size="3" color="white"<b><b>Correo electronico: </b></b></td></font>
+  <td> <font face="Book Antiqua" size="3" color="white"<b><b>Correo electronico: <font color="codigocolor">*</b></b></td></font>
   <td> <input type="text" name="user" placeholder="Ingrese Correo" required><br></td>
   </tr>
   </tr>
 
   <tr>
   <tr>
-  <td > <font face="Times New Roman" size="3" color="white"<b><b>Contraseña: </b></b></td></font>
+  <td > <font face="Book Antiqua" size="3" color="white"<b><b>Contraseña: <font color="codigocolor">*</b></b></td></font>
   <td> <input type="password" name="user" placeholder="Ingrese Contraseña" required><br></td>
   </tr>
   </tr>
 
   <tr>
   <tr>
-  <td > <font face="Times New Roman" size="3" color="white"<b><b>Confirmar Contraseña: </b></b></td></font>
+  <td > <font face="Book Antiqua" size="3" color="white"<b><b>Confirmar Contraseña: <font color="codigocolor">*</b></b></td></font>
   <td> <input type="password" name="user" placeholder="" required><br></td>
   </tr>
   </tr>
 
 
   <tr>
-  <td > <font face="Times New Roman" size="3" color="white"<b><b>Foto: </b></b></td></font>
+  <td > <font face="Book Antiqua" size="3" color="white"<b><b>Foto: <font color="codigocolor">*</b></b></td></font>
   <td><input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple><td>
   </tr>
 
@@ -159,6 +159,6 @@
 <br><br>
   <H3 align="center"><input type="submit" value="Registrarse"></H3>
 
-
+</form>
 </body>
 </html>
