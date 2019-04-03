@@ -43,7 +43,9 @@ $n1 = $_POST['num1'];
       }
       $i--;
     }
+
     echo "</table>";
+
 
 
     echo "<b>Lista de numeros Desendente</b>";
